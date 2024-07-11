@@ -1,0 +1,16 @@
+.navbar{
+    background-color: orange;
+    color: yellow;
+    margin: 0%;
+}
+label{
+    color: rgb(134, 134, 23);
+}
+.bottomnav{
+    background-color: orange;
+    height: 37px;
+    text-align: right;
+}
+body{
+    background-color: rgba(11, 13, 36, 0.952);
+}
