@@ -1,0 +1,33 @@
+.box{
+    background-color: black;
+    display: flex;
+    height: 60px;
+    
+}
+
+.acc,.mc,.cu,button{
+    color: white;
+}
+.amaz{
+    color: orange;
+    font-size: 25px;
+}
+
+button{
+    background-color: #f08804;
+}
+.amaz{
+    margin-right: 200px;
+}
+.mc,.acc,.cu,.inse{
+    font-size: 20px;
+}
+.acc,.mc,.cu{
+    margin-right: 200px;
+}
+.amaz,.acc,.mc,.cu,.inse{
+    margin-top: 4px;
+}
+/* *{
+    background-color: aqua;
+} */
