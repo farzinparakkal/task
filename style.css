@@ -1,0 +1,49 @@
+nav{
+    background-color: black;
+    color: white;
+    height: 60px;
+    /* border: 2px solid white; */
+}
+
+.amaz{
+    color: orange;
+    font-size: 25px;
+}
+
+span button{
+    color: white;
+    background-color: #f08804;
+}
+
+.acc,.mc,.cu,.amaz{
+    padding-right: 200px;
+}
+/* span{
+    margin-top: 10px;
+} */
+ div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+ }
+ .div1{
+    background-color: rgb(152, 78, 78,0.5);
+ }
+
+.div2{
+    background-color: rgb(31, 206, 31,0.5);
+}
+
+.div3{
+    background-color: rgba(36, 6, 158, 0.5);
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 60px;
+    text-align: right;
+}
+
+footer span{
+    margin-right: 100px;
+}
