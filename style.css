@@ -7,18 +7,55 @@
 }
 nav{
     background-color: rgba(22, 22, 23, .8);;
-    color: white;
-    text-align: center;
+    color: rgba(255, 255, 255, .8);
     height: 44px;
     position: fixed;
+    font-size: 12px;
+    letter-spacing: -.01em;
+    font-weight: 400;
     width: 100%;
 }
-span{
-    padding: 15px;
+.navdiv{
+    width: 100%;
+    height: 30px; 
+    padding-top: 9px; 
+    text-align: center;
+}
+.navdiv span{
+    padding-right: 30px;
 }
 a{
     text-decoration: none;
     color: white;
+}
+.storel1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.storel{
+    color: rgb(186, 178, 236);
+}
+.storel1-1{
+    padding-top: 10px;
+    font-weight: 100;
+}
+.secstore{
+    display: flex;
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    padding-left: 200px;
+}
+.sstore:hover ~ .secstore1{
+    visibility: visible;
+    opacity: 1;
+    height: 430px;
+}
+.smac:hover ~ .secstore2{
+    visibility: visible;
+    opacity: 1;
+    height: 430px;
 }
 .ipad{
     background-image: url("./images/ipadpro.jpg");
@@ -54,7 +91,7 @@ a{
 }
 .learnbtn{
     color: white;
-    background-color: blue;
+    background-color: #0071E3;
     height: 43px;
     width: 130px;
     border: 0cap;
@@ -63,18 +100,19 @@ a{
 .buybtn{
     height: 43px;
     width: 72px;
-    color: blue;
+    color: #0071E3;
     background-color: white;
     border: 0cap;
     font-size: 17px;
 }
 .buybtn:hover{
     color: white;
-    background-color: blue;
+    background-color: #0071E3;
 }
 .learnbtn:hover{
-    color: blue;
+    color: #0071E3;
     background-color: white;
+    border: 1px solid #0071E3;
 }
 .mac{
     padding-left: 25%;
@@ -82,9 +120,9 @@ a{
     background-color: #f5f5f7;
 }
 .mac button{
-    color: blue;
+    color: #0071E3;
     background-color: white;
-    border: 1px solid blue;
+    border: 1px solid #0071E3;
     height: 43px;
     width: 83px;
     border-radius: 30px;
@@ -93,7 +131,7 @@ a{
 }
 .mac button:hover{
     color: white;
-    background-color: blue;
+    background-color: #0071E3;
 }
 .macb{
     background-color: #f5f5f7;
@@ -117,7 +155,7 @@ a{
     
 }
 .macbtn .buybtn{
-    border: 1px solid blue;
+    border: 1px solid #0071E3;
 }
 .gphs1{
     display: flex;
@@ -142,11 +180,11 @@ a{
     height: 35px; 
     width: 112px; 
     background-color: black; 
-    color: blue; 
-    border: 1px solid blue;
+    color: #0071E3; 
+    border: 1px solid #0071E3;
 }
 .gph1btn:hover{
-    background-color: blue;
+    background-color: #0071E3;
     color: white;
 }
 .gph2btn{
@@ -154,11 +192,11 @@ a{
     height: 35px; 
     width: 112px; 
     background-color: white; 
-    color: blue; 
-    border: 1px solid blue;
+    color: #0071E3; 
+    border: 1px solid #0071E3;
 }
 .gph2btn:hover{
-    background-color: blue;
+    background-color: #0071E3;
     color: white;
 }
 .gph2-2btn{
@@ -170,30 +208,59 @@ a{
     height: 35px;
     width: 61px;
     background-color: black;
-    color: blue;
-    border: 1px solid blue;
+    color: #0071E3;
+    border: 1px solid #0071E3;
 }
 .gph2-2btn:hover{
-    background-color: blue;
+    background-color: #0071E3;
     color: white;
 }
 .parag{
     margin: auto;
     text-align: left;
-    width: 950px;
-    
+    width: 980px;
     font-size: 12px;
     color: #0000008F;
-    padding: 1px;
+    padding: 2px;
+}
+.parag a{
+    text-decoration: underline;
+    color: #0000008F;
 }
 footer{
-    margin: auto;
+    font-size: 12px;
+    color: #000000B8;
 }
 .footer{
     display:inline-flex;
     padding: 10px;
     gap: 5px;
+    
 }
 ul{
     list-style: none;
+    text-align: left;
+}
+.mainli{
+    padding-bottom: 14px;
+}
+li{
+    padding-bottom: 10px;
+    padding-right: 80px;
+}
+footer a{
+    color: #0071E3;
+    text-decoration: underline;
+}
+.fosec2{
+    text-align: left;
+}
+.footp{
+    display: flex;
+}
+.footset{
+    width: 1000px;
+    height: 540px;
+    
+    margin: auto;
 }
