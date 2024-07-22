@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2b2c2c;
+    color: white;
+    position: sticky;
+}
+.nav1 select{
+    background-color: #2b2c2c;
+    border: none;
+    color: aliceblue;
+    margin-top: 5px;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+.nleftsection{
+    display: flex;
+}
+.nlefttextsection{
+    display: grid;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.nrightsection{
+    display: flex;
+}
+.store,.contactus,.login{
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+}
+.store,.contactus,.login,.heart,.bag{
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.store,.contactus,.login,.heart{
+    border-right: 1px solid white;
+}
+.nrightsection span{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.nrightsection img{
+    padding-top: 5px;
+}
+.store:hover{
+    color: yellow;
+}
+.contactus:hover{
+    color: yellow;
+}
+.login:hover{
+    color: yellow;
+}
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blanchedalmond; */
+}
+.n1mainlogo {
+    margin-left: 65px;
+    padding-top: 11px;
+    /* padding-bottom: 13px; */
+}
+.n1search{
+    width: 220px;
+    height: 50px;
+    /* background-color: aquamarine; */
+    display: flex;
+    margin-top: 6px;
+}
+.n1delivery{
+    background-color: #FFDF00;
+    border-radius: 30px;
+    width: 200px;
+    height: 45px;
+    margin-top: 20px;
+}
+.n1deliveryimg{
+    height: 35px;
+    width: 35px;
+    /* background-color: aquamarine; */
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.n1options{
+    font-size: 14px;
+    color: #0E3051;
+    padding-top: 30px;
+    font-family: Cabin;
+    font-weight: 500;
+}
+.n1options span{
+    padding-left: 10px;
+}
+.ro-pg1{
+    display: flex;
+    /* background-color: #FFDF00; */
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.rpt{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #0e3051;
+    font-weight: 500;
+}
+.con1{
+    width: 100vw;
+    height: 200px;
+    background-color: #fff6d7;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.con112{
+    width: 105px;
+    height: 24px;
+    background-color: #FFDF00;
+    border: .5px dashed;
+    border-radius: 5px;
+    text-align: center;padding-top: 8px;
+    font-size: 14px;
+}
+.smbrk{
+    width: 80vw;
+    height: 50px;
+    background-color: #2b2c2c;
+    margin: auto;
+}
+.scon1{
+    height: 70px;
+    width: 800px;
+    margin: auto;
+    /* background-color: #FFDF00; */
+    text-align: center;
+}
+.pgcon1{
+    width: 85vw;
+    height: 450px;
+    /* background-color: #0e3051; */
+    margin: auto;
+    display: flex;
+}
+.pc1t{
+    width: 570px;
+    height: 280px;
+    background-color: #FEFBEA;
+    z-index: 3;
+    margin-top: 90px;
+}
+.pctfl1{
+    display: flex;
+    justify-content: space-around;
+}
+.pctfl2{
+    display: flex;
+    justify-content: space-around;
+}
+.pc1t1{
+    width: 400px;
+    height: 50px;
+    font-size: 28px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.pc1tt{
+    background-color: white;
+    color: #0E3051;
+    height: 45px;
+    width: 163px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.c2{
+    background-image: url("./images/bg-image/bg-img-1.jpg");
+    width: 100vw;
+    height: 440px;
+    background-repeat: no-repeat;
+}
+.c2-1{
+    height: 300px;
+    width: 500px;
+    background-color: #FFDF00;
+    border-radius: 10px;
+    margin-left: 54%;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+}
+.c2btn{
+    width: 300px;
+    height: 90px;
+    margin: auto;
+}
+.c2-1 button{
+    height: 45px;
+    width: 240px;
+    background-color: #0E3051;
+    color: #FFDF00;
+    border-radius: 10px;
+}
+
