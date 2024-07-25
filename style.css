@@ -102,6 +102,10 @@
 .n1options span{
     padding-left: 10px;
 }
+.n1options a{
+    color: #0E3051;
+    text-decoration: none;
+}
 .product:hover{
     text-decoration: underline red;
     font-weight: 700;
