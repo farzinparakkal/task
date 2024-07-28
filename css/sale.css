@@ -1,0 +1,65 @@
+.ssec3{
+    width: 200px;
+    margin: auto;
+    height: 35px;
+    font-size: 28px;
+    color: #0E3051;
+    font-weight: 700;
+}
+.sscon2{
+    width: 1300px;
+    margin: auto;
+}
+.ssec4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1400px;
+    margin: auto;
+    padding-left: 60px;
+}
+.ssec4 div img{
+    width: 420px;
+    height: 530px;
+}
+.ssec5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.s5btn button{
+    width: 128px;
+    height: 45px;
+    background-color: #0E3051;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.s5btn button:hover{
+    width: 128px;
+    height: 45px;
+    color: #0E3051;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #0E3051;
+}
+.ssec6{
+    width: 98vw;
+    height: 600px;
+    background-color: #0E3051;
+}
+.ss6phm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1300px;
+    margin: auto;
+}
+.ss6t{
+    font-size: 30px;
+    color: #FFDF00;
+    font-weight: 600;
+    width: 400px;
+    margin: auto;
+}

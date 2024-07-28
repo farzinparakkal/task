@@ -1,0 +1,54 @@
+.psec0{
+    height: 85px;
+    /* background-color: aqua; */
+    width: 800px;
+    margin: auto;
+}
+.psec0t{
+    font-size: 35px;
+    color: #0E3051;
+    text-align: center;
+    padding: 20px;
+    font-weight: 800;
+}
+.allog{
+    height: 160px;
+    width: 940px;
+    /* background-color: aquamarine; */
+    margin: auto;
+}
+.alimg img{
+    height: 150px;
+    width: 200px;
+}
+.alimg{
+    width: 200px;
+    height: 150px;
+    /* background-color: antiquewhite; */
+    margin: auto;
+}
+.logcont{
+    width: 1240px;
+    height: 60px;
+    font-size: 20px;
+    color: #0E3051;
+    margin: auto;
+}
+.logcount1{
+    width: 1240px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+}
+.footerli{
+    width: 85vw;
+    /* background-color: bisque; */
+    margin: auto;
+}
+.btfooter{
+    font-size: 18px;
+    font-weight: 700;
+}
+.stfooter{
+    font-size: 14px;
+}

@@ -1,0 +1,79 @@
+.wsec2{
+    height: 400px;
+    width: 1400px;
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+}
+.wsec21{
+    width: 502px;
+    height: 290px;
+    /* background-color: orange; */
+    margin: auto;
+    align-content: center;
+    margin-top: 40px;
+}
+.wsec2t{
+    width: 700px;
+    height: 400px;
+    background-color: #FFDF00;
+}
+.wsec2v{
+    width: 700px;
+    height: 400px;
+    /* background-color: blue; */
+}
+.wsec2t1{
+    font-size: 21px;
+    color: #0E3051;
+    padding-top: 10px;
+    text-align: center;
+}
+.wsec2t2{
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+}
+.wsec2tbtn button{
+    font-size: 12px;
+    height: 40px;
+    width: 401px;
+    background-color: #0E3051;
+    color: white;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+.wsec3{
+    width: 800px;
+    height: 90px;
+    /* background-color: #FFDF00; */
+    margin: auto;
+    text-align: center;
+}
+.wsec31{
+    font-size: 30px;
+}
+.wsec32{
+    font-size: 20px;
+}
+.wsec4{
+    display: flex;
+    gap: 20px;
+    width: 1350px;
+    margin: auto;
+    /* background-color: #FFDF00; */
+}
+.wsec4 div img{
+    width: 250px;
+    height: 180px;
+}
+.wsec5{
+    width: 1300px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.wsec5 div img{
+    width: 280px;
+    height: 240px;
+}
