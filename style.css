@@ -50,7 +50,8 @@
     padding-top: 25px;
 }
 .nav2{
-    width: 850px;
+    /* width: 850px; */
+    width: 55.3vw;
     height: 64px;
     /* background-color: aqua; */
     margin: auto;
@@ -61,14 +62,16 @@
     font-size: 12px;
 }
 .n2s1{
-    width: 284.26px;
+    /* width: 284.26px; */
+    width: 37vw;
     height: 63px;
     /* background-color: blue; */
     align-content: center;
     padding-left: 35px;
 }
 .n2s2{
-    width: 140.74px;
+    /* width: 140.74px; */
+    width: 16vw;
     height: 63px;
     align-content: center;
     padding-left: 10px;
@@ -76,14 +79,16 @@
     /* background-color: green; */
 }
 .n2s3{
-    width: 140.74px;
+    /* width: 140.74px; */
+    width: 16vw;
     height: 63px;
     align-content: center;
     padding-left: 10px;
     /* background-color: red; */
 }
 .n2s4{
-    width: 284.2px;
+    /* width: 284.2px; */
+    width: 32.5vw;
     height: 63px;
     padding-left: 10px;
     display: flex;
