@@ -135,7 +135,7 @@
     border-radius: 30px;
 }
 .subnav{
-    width: 88vw;
+    width: 90vw;
     height: 78px;
     margin: auto;
     /* background-color: #6A6A6A; */
@@ -220,17 +220,30 @@
 
 @media only screen and (max-width : 550px){
     .isec-1{
+        width: 500px;
         display: grid;
         margin: auto;
-    }
-    .nav2{
-        
     }
 }
 @media only screen and (max-width : 743px){
     .nav1{
         visibility: hidden;
         opacity: 0;
+    }
+    body{
+        transform: translateY(-80px);    
+    }
+    .nav2{
+        width: 80vw;
+    }
+    .n2s2{
+        visibility: hidden;
+    }
+    .n2s3{
+        visibility: hidden;
+    }
+    .n2s4{
+        visibility: hidden;
     }
 }
 @media only screen and (min-width : 550px) and (max-width : 950px){
