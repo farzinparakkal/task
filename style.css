@@ -39,6 +39,9 @@
     justify-content: center;
     gap: 10px;
 }
+
+
+
 .nsec32{
     width: 46px;
     height: 42px;
@@ -151,7 +154,7 @@
 
 
 .isec-1{
-    width: 88vw;
+    width: 90vw;
     /* background-color: aqua; */
     margin: auto;
     justify-content: space-around;
@@ -280,5 +283,17 @@
     .isec-1{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .isec-1{
+        width: 90vw;
+        /* background-color: aqua; */
+        margin: auto;
+        justify-content: space-around;
+        gap: 5px;
+    }
+    .isec1-img img{
+        height: 286.9px ;
+        width: 290px ;
+        border-radius: 10px;
     }
 }
